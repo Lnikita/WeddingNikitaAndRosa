@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: url("../images/champagne-glasses-couple1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    color: black;
+}
+
+.nav, .nav a{
+    color: black;
+}
+
+.heading {
+  color: black;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.text-right{
+  text-align: center;
+  color: black;
+}
