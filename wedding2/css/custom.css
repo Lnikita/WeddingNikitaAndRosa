@@ -4,29 +4,45 @@ body, html {
 
 .hero-image {
     background-image: url("../images/champagne-glasses-couple1.jpg");
-    height: 100%;
+    height: 200%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 0px;
 }
 
 .hero-text {
     text-align: center;
-    color: black;
+    color: white;
+    font-size: 50px;
+    padding-top: 220px;
+    font-family: "Sacramento", Arial, serif;
 }
 
 .nav, .nav a{
-    color: black;
+    color: white;
 }
 
 .heading {
-  color: black;
-  font-size: 1.5em;
+  color: white;
+  font-size: 2.5em;
   font-style: italic;
+}
+.style-heading{
+  margin-bottom: 20px;
+    font-size: 100px;
+    line-height: 1.5;
+    font-family: "Sacramento", Arial, serif;
+    font-style: oblique;
+    color: #F14E95;
+        line-height: 2.0;
 }
 
 .text-right{
   text-align: center;
-  color: black;
+  color: white;
 }
+.text-centre{
+  text-align: center;
+  font-size: 50px;

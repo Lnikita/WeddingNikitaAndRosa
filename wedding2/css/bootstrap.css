@@ -65,6 +65,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+  
 }
 
 dfn {
@@ -135,7 +136,7 @@ input,
 optgroup,
 select,
 textarea {
-  color: inherit;
+  /* color: inherit; */
   font: inherit;
   margin: 0;
 }

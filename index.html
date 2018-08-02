@@ -5,44 +5,127 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="wedding2/css/custom.css" rel="stylesheet" type="text/css"  media="all" />
+  <script src="wedding2/js/jquery.min.js"></script>
+  <script src="wedding2/js/bootstrap.min.js"> </script>
+  <script src="wedding2/js/scrolling.js"></script>
+  <link href="/Users/nikita.limani/Desktop/WeddingNikitaAndRosa/wedding2/video"/>
+
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+
+	<link rel="stylesheet" href="wedding2/css/animate.css">
+
+	<link rel="stylesheet" href="wedding2/css/icomoon.css">
+
+	<link rel="stylesheet" href="wedding2/css/bootstrap.css">
+
+	<link rel="stylesheet" href="wedding2/css/style.css">
+
   <style>
   body {
-    margin: 0;
+    margin: 40;
     height: 100%;
   }
   </style>
 </head>
-
-
-
 <body>
+  	<div id="page">
+      <section id="section_one">
+  	<nav class="fh5co-nav" role="navigation">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-xs-2">
+  					<div id="fh5co-logo"><a href="index.html">Wedding</a></div>
+  				</div>
+  				<div class="col-xs-10 text-right menu-1">
+  					<ul>
+  						<li class="active"><a href="index.html">Home</a></li>
+  						  <a href="#section_three">Our Story</a>
+  							<a href="#section_four">Event</a>
+  							<a href="#section_five">Gallery</a>
+  					</ul>
+  				</div>
+  			</div>
+      </div>
+  	</nav>
+  </section>
 
-  <div class="hero-image">
-    <p class="heading">Nikita weds Rosa</p>
-    <section class="nav">
-      <nav>
-        <ul>
-          <li><a href="#">Our Story</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Wedding Information</a></li>
-          <li><a href="#">Guest Book</a></li>
-        </ul>
-      </nav>
 
-
-    </section>
-
+<section id="section_two">
+<div class="hero-image">
     <div class="hero-text">
-      <h1 style="font-size:50px"> WE ARE GETTING MARRIED </h1>
+      <h1 class="style-heading"> We Are Getting Married </h1>
       <p><strong>Wohoooo</strong></p>
-      <button onclick={window.location='https://goo.gl/forms/uq3ZkYTjSU29VoK82'}>RSVP</button>
+      <button onclick={window.location='https://goo.gl/forms/uq3ZkYTjSU29VoK82'}><strong>Rsvp</strong></button>
     </div>
-
-    <div class="footer">
-      <p class="text-right">RSVP by Dec 18</p>
-    </div>
-    <!--</footer>-->
+ <div>
+    <footer>
+      <p class="text-center"><mark>RSVP by Dec 18</mark></p>
+    </footer>
   </div>
+</div>
+</section>
 
-  </body>
+<section id="section_three">
+<div id="fh5co-couple-story">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>We Love Each Other</span>
+					<h2>Our Story</h2>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+    </div>
+	</div>
+</section>
+
+<section id="section_four">
+	<div id="fh5co-couple">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<h2 class="text-centre">Hello!</h2>
+					<h3 class="text-centre">June 28th, 2019 London, Uk</h3>
+					<p class="text-centre">We invited you to celebrate our wedding</p>
+				</div>
+			</div>
+			<div class="couple-wrap animate-box">
+				<div class="couple-half">
+					<div class="groom">
+						<img src="wedding2/images/groom.jpg" alt="groom" class="img-responsive">
+					</div>
+					<div class="desc-groom">
+						<h3>Nikita L</h3>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+					</div>
+				</div>
+				<div class="couple-half">
+					<div class="bride">
+						<img src="wedding2/images/bride.jpg" alt="groom" class="img-responsive">
+					</div>
+					<div class="desc-bride">
+						<h3>Rosa B</h3>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="section_five">
+<div style="text-align:center">
+  <video width="1200" controls>
+  <source src="wedding2/video/John Legend - All of Me (Edited Video).mp4" type="video/mp4">
+  <source src="wedding2/video/John Legend - All of Me (Edited Video).mp4" type="video/ogg">
+</video>
+
+<p class="video">
+Thank you in advance for joining us on our big day
+<a href="https://www.youtube.com/watch?v=sqfRCPLOEcA" target="_blank">Nikita and Rosa</a>.
+</p>
+</div>
+</section>
+	</body>
 </html>
