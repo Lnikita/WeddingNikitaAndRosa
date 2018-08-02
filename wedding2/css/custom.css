@@ -46,3 +46,21 @@ body, html {
 .text-centre{
   text-align: center;
   font-size: 50px;
+}
+.fh5co-social-icons li a {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    color: #F14E95;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;}
